@@ -1,0 +1,58 @@
+body {
+    background: #1f2938;
+    color: #fcfffc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 550px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #878c95;
+}
+
+.accent-color {
+    color: #44e08d;
+}
+
+.btn {
+    background: #16b780;
+    color: #c4e8da;
+    border: none;
+    border-radius: 5px;
+    padding: .5em 1em;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none;
+}
+
+/* input fields */
+
+.input-fields {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #283548;
+    margin-top: 1.5em;
+}
+
+#input-el-one,
+#input-el-two {
+    background: #283548;
+    border-radius: 5px;
+    text-align: center;
+    color: #44e08d;
+    padding: 1em 0;
+    margin: 1.5em 0;
+    width: 40%;
+}
